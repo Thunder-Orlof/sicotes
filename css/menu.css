@@ -1,0 +1,50 @@
+/*estilo de la barra de menu*/
+a{
+	color: black;
+	font-weight: bolder;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+nav{
+	background: orange;
+	border-radius: 10px;
+	clear: both;
+	height: 35px;
+	left: 0px;
+	margin-top: 5px;
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	top: 0px;
+	width: 100%
+}
+
+header{
+	border-radius: 10px;
+	clear: both;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	top: 0;
+	width: 100%;
+}
+footer{
+	background: #03c03c;
+	border-radius: 10px;
+	bottom: 0;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+/*estilo de el div donde se cargan las ventanas*/
+div{
+	border: 1px solid black;
+	max-height: 630px;
+	min-height: 280px;
+	margin: 10px;
+	width: 96%;
+}

@@ -1,0 +1,86 @@
+body{
+	background: url(http://localhost/sicotes/resources/img/background2.jpg) ;
+	background-size: cover;
+	opacity: 60%;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+button{
+	border-radius: 25px;
+	font-size: 20px;
+	opacity: 50%;
+	width: 100%;
+	-moz-transition-duration: 0.15s;
+	-o-transition-duration: 0.15s;
+	-webkit-transition-duration: 0.15s;
+}
+button:hover{
+	border: 2px solid #09D0FF;
+	background: white;
+	cursor: pointer;
+}
+div#contenedor{
+	background: #d8d8d8;
+	border-radius: 6px;
+	font-size: 25px;
+	height: 290px;
+	left: 37%;
+	margin: 0 auto 0 auto;
+	padding: 25px;
+	position: absolute;
+	top: 30%;
+	width: 350px;
+	-webkit-animation: 4s neon infinite;
+	-o-animation: 4s neon infinite;
+	-moz-animation: 4s neon infinite;
+}
+
+footer{
+	background: #03c03c;
+	border-radius: 20px;
+	bottom: 0;
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+header{	
+	border-radius: 20px;
+	clear: both;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	bottom: 0;
+}
+
+input:valid{
+	border: 2px solid #64E83B;
+}
+input:invalid{
+	border: 2px solid #E81D0F;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ANIMACIÓN DEL DIV DEL LOGIN*/
+@-webkit-keyframes neon{
+	0%{box-shadow: 0px 0px 15px 1px rgba(0 ,0, 0, .5);}
+	50%{box-shadow: 0px 0px 15px 25px rgba(0 ,0, 0, .5);}
+	100%{box-shadow: 0px 0px 15px 1px rgba(0 ,0, 0, .5);}
+}
